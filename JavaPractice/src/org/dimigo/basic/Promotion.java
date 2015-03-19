@@ -7,8 +7,8 @@ public class Promotion {
 		System.out.printf("월 평균 급여 : %,d원\n",sal);
 		System.out.println("점포 내 직원수 : " + emp);
 		System.out.printf("점포 수 : %,d개\n\n", sto );
-		long l = 10000000000;
-		long year = sal*emp*sto*12;
-		System.out.println("연간 인건비 : " + year);
+		long year = (long)sal*emp*sto*12;
+		
+		System.out.printf("연간 인건비 : %,d\n",year);
 	}
 }
