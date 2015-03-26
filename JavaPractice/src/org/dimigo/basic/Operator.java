@@ -6,7 +6,10 @@ public class Operator {
 		double h1 = 5.8, h2 = 5.4;
 		double sa = (a+b)*h1/2, py = a*h2;
 		System.out.println("사다리꼴 넓이 : " + sa);
-		System.out.println("평행사변형 넓이 : " + py +"\n\n");
-		System.out.println("사다리꼴이 평행사변형 보다 " + (sa-py) + " 더 큽니다");
+		System.out.println("평행사변형 넓이 : " + py +"\n\n"); 
+		if(sa > py)
+			System.out.println("사다리꼴이 평행사변형 보다 " + (sa-py) + " 더 큽니다");
+		else
+			System.out.println("평행사변형이 사다리꼴 보다 " + (py-sa) + " 더 큽니다");
 	}
 }
