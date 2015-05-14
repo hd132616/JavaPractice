@@ -21,7 +21,7 @@ public class Question {
 			System.out.println("정답입니다!");
 		else
 			System.out.println("틀렸습니다!");
-		
+		  
 		System.out.println("가장 좋아하는 동물은?");
 		answer = scanner.nextLine();
 		String animal = "고양이";
