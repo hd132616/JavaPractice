@@ -9,7 +9,7 @@ public class SnackTest {
 		int sum=0;
 		for(int i=0; i<snack.length; ++i){
 			snack[i].printSnack();
-			sum += (snack[i].price)*(snack[i].number);
+			sum += snack[i].calcPrice();
 		}
 		System.out.println();
 		System.out.println("총 구매 금액 : " + String.format("%,d",sum) +"원");

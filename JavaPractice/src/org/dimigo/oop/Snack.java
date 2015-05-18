@@ -24,7 +24,7 @@ public class Snack {
 		System.out.println();
 	}
 	int calcPrice(){
-		return price;
+		return price*number;
 	}
 	
 	public String getName() {
