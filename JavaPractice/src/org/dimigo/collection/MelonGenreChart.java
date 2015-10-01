@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class MelonGenreChart {
 	public static void main(String[] args) {
-
+  
 		Map<String, List<Music>> map = new HashMap<String, List<Music>>();
 		List<Music> ballad = new ArrayList<Music>();
 		ballad.add(new Music("내 첫사랑", "베리굿"));
